@@ -1,0 +1,25 @@
+ol{
+     margin-left: -40px;
+     margin-top: 10px;
+     list-style-position: inside;
+}
+
+*{
+     text-align: center;
+}
+
+.element_selector{
+     color: red;
+}
+
+.class_selector{
+     color: black;
+}
+
+.id_selector{
+     color: green;
+}
+
+.attribute_selector{
+     color: blue;
+}
