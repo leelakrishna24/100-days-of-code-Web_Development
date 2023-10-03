@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML forms</title>
   </head>
   <body>
     <h1>Heading 1</h1>
@@ -94,6 +94,133 @@
         </tr>
       </tbody>
     </table>
-    
+    <br />
+    <form>
+      <label for="username">Username</label><br />
+      <input type="text" id="username" /><br />
+      <br />
+
+      <label for="about">About You</label><br />
+      <textarea id="about"></textarea><br />
+
+      <label>Country</label><br />
+      <select>
+        <option value="india">India</option>
+        <option value="singapore">Singapore</option>
+        <option value="vietnam">Vietnam</option>
+      </select>
+      <br />
+      <br />
+
+      <label>Job Type</label><br />
+      <input type="radio" name="jobtype" value="parttime" id="parttime" />
+      <label for="parttime">Part time</label> <br />
+      <input type="radio" name="jobtype" value="fulltime" id="fulltime" />
+      <label for="fulltime">Full time</label> <br />
+      <br />
+
+      <label>Job Type</label><br />
+      <input type="checkbox" name="jobtype" value="parttime" id="parttime" />
+      <label for="parttime">Part time</label> <br />
+      <input type="checkbox" name="jobtype" value="fulltime" id="fulltime" />
+      <label for="fulltime">Full time</label> <br />
+      <br />
+
+      <button>Submit</button>
+      <h3>Things learned : HTML forms</h3>
+      <ol>
+        <li>
+          The HTML &lt;form&gt; element is used to create an HTML form for user
+          input, it should be ended with &lt;/form&gt;
+        </li>
+        <li>
+          The HTML &lt;input&gt; element is the most used form element. it can
+          be displayed in many ways, depending on the "type" attribute.
+          <ul>
+            <li>
+              &lt;input type="text" &gt; Displays a single-line text input field
+            </li>
+            <li>
+              &lt;input type="radio" &gt; Displays a radio button (for selecting
+              one of many choices)
+            </li>
+            <li>
+              &lt;input type="checkbox" &gt; Displays a checkbox (for selecting
+              zero or more of many choices)
+            </li>
+            <li>
+              &lt;input type="submit" &gt; Displays a submit button (for
+              submitting the form)
+            </li>
+            <li>&lt;input type="button" &gt; Displays a clickable button</li>
+          </ul>
+        </li>
+        <li>
+          The &lt;label&gt; tag defines a label for many form elements.
+          <ul>
+            <li>
+              The &lt;label&gt; element is useful for screen-reader users,
+              because the screen-reader will read out loud the label when the
+              user focuses on the input element.
+            </li>
+            <li>
+              The &lt;label&gt; element also helps users who have difficulty
+              clicking on very small regions (such as radio buttons or
+              checkboxes) - because when the user clicks the text within the
+              &lt;label&gt; element, it toggles the radio button/checkbox.
+            </li>
+            <li>
+              The for attribute of the &lt;label&gt; tag should be equal to the
+              id attribute of the &lt;input&gt; element to bind them together.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Radio Buttons
+          <ul>
+            <li>The &lt;input type="radio"&gt; defines a radio button.</li>
+          </ul>
+        </li>
+        <li>
+          Checkboxes
+          <ul>
+            <li>The &lt;input type="checkbox"&gt; defines a checkbox</li>
+            <li>
+              Checkboxes let a user select ZERO or MORE options of a limited
+              number of choices.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Submit Button
+          <ul>
+            <li>
+              The &lt;input type="submit"&gt; defines a button for submitting
+              the form data to a form-handler.
+            </li>
+            <li>
+              The form-handler is typically a file on the server with a script
+              for processing input data.
+            </li>
+            <li>
+              The form-handler is specified in the form's action attribute.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Name attribute for &lt;input&gt;
+          <ul>
+            <li>
+              Notice that each input field must have a name attribute to be
+              submitted.
+            </li>
+            <li>
+              If the name attribute is omitted, the value of the input field
+              will not be sent at all.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </form>
   </body>
 </html>
