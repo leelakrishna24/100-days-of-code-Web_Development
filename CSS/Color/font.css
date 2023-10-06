@@ -1,0 +1,11 @@
+.font-styles{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-style: italic;
+     font-weight: bold;
+     font-size: xx-large;
+     text-decoration: underline;
+     text-align: center;
+     line-height: 2;
+     letter-spacing: 4px;
+     word-spacing: 20px;
+}
