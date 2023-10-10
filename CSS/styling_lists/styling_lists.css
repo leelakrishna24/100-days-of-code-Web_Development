@@ -1,9 +1,5 @@
 ul{
-     list-style-type:circle;
+     list-style-type: none;
      color: orange;
-     background-color: yellow;
-}
-
-*{
-     background-color: blue;
+     margin: 1;
 }

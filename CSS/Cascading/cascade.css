@@ -1,0 +1,15 @@
+h2{
+     color: blue;
+}
+
+.sub-heading{
+     color: blue !important;
+}
+
+h2{
+     color: red;
+}
+
+#title{
+     color: orange;
+}

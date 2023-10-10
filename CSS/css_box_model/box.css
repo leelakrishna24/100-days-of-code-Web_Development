@@ -1,0 +1,7 @@
+.box_model{
+     border: 1px solid red;
+     height: 50px;
+     width: 300px;
+     padding: 20px;
+     margin: 20px;
+}
