@@ -5,3 +5,23 @@ h1{
 h2{
      background-color: red;
 }
+
+.error{
+     color: red;
+}
+
+.success{
+     color: green;
+}
+
+#test{
+     color: purple;
+}
+
+.orange{
+     background-color: orange;
+}
+
+.yellow{
+     background-color: yellow;
+}
