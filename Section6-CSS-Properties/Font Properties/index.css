@@ -1,0 +1,26 @@
+*{
+     background-color: cornflowerblue;
+     font-size: 18px;
+     color: white;
+}
+
+.orange{
+     color: orange;
+}
+
+.align{
+     text-align: right;
+}
+
+.font_size{
+     font-size: 2rem;
+}
+
+.font_weight{
+     font-weight: 900;
+}
+
+.font_family{
+     font-family: cursive;
+}
+
