@@ -1,3 +1,8 @@
 {
-     "livePreview.defaultPreviewPath": "/Section5-Introduction to CSS/CSS Selectors/class_selector.html"
+     "livePreview.defaultPreviewPath": "/Section5-Introduction to CSS/CSS Selectors/class_selector.html",
+     "workbench.colorTheme": "Lapis Peridot Dark",
+     "workbench.preferredDarkColorTheme": "Lapis Peridot Dark",
+     "workbench.preferredHighContrastLightColorTheme": "Lapis Peridot Dark",
+     "workbench.preferredHighContrastColorTheme": "Lapis Peridot",
+     "workbench.preferredLightColorTheme": "Lapis Peridot Dark (stealth version)"
 }
