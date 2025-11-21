@@ -2,5 +2,7 @@
     "git.useEditorAsCommitInput": true,
     "git.requireGitUserConfig": true,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 200
+    "files.autoSaveDelay": 200,
+    "editor.tokenColorCustomizations": {
+    }
 }
