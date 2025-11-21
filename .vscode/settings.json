@@ -1,4 +1,6 @@
 {
-    "git.useEditorAsCommitInput": false,
-    "git.requireGitUserConfig": true
+    "git.useEditorAsCommitInput": true,
+    "git.requireGitUserConfig": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 200
 }
