@@ -1,4 +1,4 @@
 {
-    "git.useEditorAsCommitInput": true,
+    "git.useEditorAsCommitInput": false,
     "git.requireGitUserConfig": true
 }
