@@ -1,26 +1,28 @@
-ol {  /* Type Selector i.e ol */
+ol {  /* Type (element) selector – selects all <ol> elements */
   margin-left: -40px;
   margin-top: -20px;
   list-style-position: inside;
 }
 
 /* Write your CSS below, don't change the rules above. */
-* {   /* Universal Selector "*" */
+
+* {   /* Universal selector – selects all elements */
   text-align: center;
 }
 
-p {  /* Element Selector i.e "p"*/ 
+p {  /* Type (element) selector – selects all <p> elements */ 
   color: red;
 }
 
-.note { /* Class Selector i.e "note" */
+.note { /* Class selector – selects elements with class="note" */
   font-size: 20px;
 }
 
-#id-selector-demo { /* Id Selector i.e "id-selector demo" */
+#id-selector-demo { /* ID selector – selects the element with id="id-selector-demo" */
   color: green;
 }
 
-li[value="4"] { /* Attribute Selector i.e "Value = 4" which means it only applies to attribute value of "value" is 4 */
+li[value="4"] { 
+  /* Attribute selector – selects <li> elements where value="4" */
   color: blue;
 }
