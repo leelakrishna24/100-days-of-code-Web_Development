@@ -1,26 +1,26 @@
-ol {
+ol {  /* Type Selector i.e ol */
   margin-left: -40px;
   margin-top: -20px;
   list-style-position: inside;
 }
 
 /* Write your CSS below, don't change the rules above. */
-* {
+* {   /* Universal Selector "*" */
   text-align: center;
 }
 
-p { 
+p {  /* Element Selector i.e "p"*/ 
   color: red;
 }
 
-.note {
+.note { /* Class Selector i.e "note" */
   font-size: 20px;
 }
 
-#id-selector-demo {
+#id-selector-demo { /* Id Selector i.e "id-selector demo" */
   color: green;
 }
 
-li[value="4"] {
+li[value="4"] { /* Attribute Selector i.e "Value = 4" which means it only applies to attribute value of "value" is 4 */
   color: blue;
 }
