@@ -1,24 +1,24 @@
-img {   /* Type Selector img*/  
-    height: 200px;
-    width: 200px;
+img {   /* Type selector (img element) */
+  height: 200px;
+  width: 200px;
 }
 
-#red { /*Id Selector Red*/
-    color: red;
+#red { /* ID selector (#red) */
+  color: red;
 }
 
-#blue{  /*Id Selector Blue*/
-    color: skyblue;
+#blue { /* ID selector (#blue) */
+  color: skyblue;
 }
 
-#orange {   /*Id Selector Orange*/
-    color: orange;
+#orange { /* ID selector (#orange) */
+  color: orange;
 }
 
-#green {    /*Id Selector Green*/
-    color: green;
+#green { /* ID selector (#green) */
+  color: green;
 }
 
-#yellow {   /*Id Selector Yellow*/
-    color: yellow;
+#yellow { /* ID selector (#yellow) */
+  color: yellow;
 }
