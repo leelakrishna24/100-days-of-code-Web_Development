@@ -1,19 +1,24 @@
-#red {
+img {   /* Type Selector img*/  
+    height: 200px;
+    width: 200px;
+}
+
+#red { /*Id Selector Red*/
     color: red;
 }
 
-#blue{
+#blue{  /*Id Selector Blue*/
     color: skyblue;
 }
 
-#orange {
+#orange {   /*Id Selector Orange*/
     color: orange;
 }
 
-#green {
+#green {    /*Id Selector Green*/
     color: green;
 }
 
-#yellow {
+#yellow {   /*Id Selector Yellow*/
     color: yellow;
 }
