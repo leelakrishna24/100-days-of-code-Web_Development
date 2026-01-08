@@ -1,0 +1,7 @@
+.box {
+  width: 200px;
+  padding: 20px;
+  background: lightgray;
+  border-radius: 8px;
+  text-align: center;
+}
