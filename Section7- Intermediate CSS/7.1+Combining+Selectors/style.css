@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* Group Selectors multiple elements written beside each other with , in between them */
+h1,h2 {
+    color:blueviolet;
+}
+
+/* Child Selector > */
+.box > p {
+    color:firebrick;
+}
+
+/* Descendant Selector space, select any matching element inside no matter how deep */
+.box li {
+    color: blue;
+}
+
+/* Chained Selector Select element that matches all conditions */
+li.done {
+    color: seagreen;
+}
+
+/* Multiple Combiners  */
+
+up p.done{
+    font-size: 0.75rem;
+}
